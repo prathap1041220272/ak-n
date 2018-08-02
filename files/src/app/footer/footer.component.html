@@ -1,0 +1,64 @@
+<div class="container-fluid bg-light text-muted">
+  <hr class="hr-tag">
+  <!-- form elements -->
+  <div class="row justify-content-center mt-3 p-2">
+    <!-- form -->
+    <div class="col-md-6 box">
+      <h3 class="style-h3">Comment</h3>
+      <form class="mt-3">
+        <div class="form-group row">
+          <div class="col-md-4">
+            <label for="email"><b>Email</b></label>
+            <input type="email" class="form-control" id="email" placeholder="email">
+          </div>
+          <div class="col-md-4">
+            <label for="mobile"><b>Mobile</b></label>
+            <input type="tel" class="form-control" maxlength="14" id="mobile" placeholder="mobile number">
+          </div>
+          <div class="col-md-4">
+            <label for="dob"><b>Dob</b></label>
+            <input type="date" class="form-control" id="dob">
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-md-6">
+            <label for="fname"><b>First Name</b></label>
+            <input type="text" class="form-control" id="fname" placeholder="first name">
+          </div>
+          <div class="col-md-6">
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" class="form-control" id="lname" placeholder="last name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="des"><b>Description</b></label>
+          <textarea id="des" class="form-control" rows="3" placeholder=" description"></textarea>
+        </div>
+        <button class="btn btn-info col-md-12">Submit</button>
+      </form>
+    </div>
+    <!-- social content -->
+    <div class="col-md-5 social-border d-flex justify-content-center">
+      <div class="mt-5">
+        <a href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
+        <a href="#" class="ml-4"><i class="fab fa-2x fa-instagram text-danger"></i></a>
+        <a href="#" class="ml-4"><i class="fab fa-2x fa-twitter"></i></a>
+        <a href="#" class="ml-4"><i class="fab fa-2x fa-google-plus-g  text-danger"></i></a>
+        <a href="#" class="ml-4"><i class="fab fa-2x fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- navigation in footer -->
+  <div class="row justify-content-center mt-3">
+    <a routerLink="/home" class="btn btn-link decoration">Home</a>
+    <a routerLink="/about" class="btn btn-link decoration">About us</a>
+    <a routerLink="/news" class="btn btn-link decoration">News</a>
+    <a routerLink="/testimonials" class="btn btn-link decoration">Testinomials</a>
+    <a routerLink="/disclaimer" class="btn btn-link decoration">Disclaimer</a>
+  </div>
+  <!-- website rights -->
+  <div class="row justify-content-center decoration">
+    <p>Ashok Numerology © 2018.All Rights Reserved by <a routerLink="/home" class="d-flex justify-content-center decoration">Ashok Numerology</a></p>
+  </div>
+  <p class="row justify-content-center decoration">Designed & Developed by <a href="https://tekstoners.blogspot.com/" target="_blank" class="ml-1 decoration">Tek Stoner's</a></p>
+</div>

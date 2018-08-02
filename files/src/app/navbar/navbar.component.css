@@ -1,0 +1,38 @@
+.bottom {
+  border-bottom: 1px solid lightgreen;
+  color: white !important;
+}
+
+
+div.dropdown-menu a.dropdown-item:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+.hide {
+  color: black;
+}
+
+@media screen and (min-width: 770px) {
+  .hide {
+    display: none;
+  }
+  li.nav-item:hover,
+  .mrg {
+    border-bottom: 2px solid grey;
+    margin-bottom: -18px;
+  }
+  a.nav-link:hover {
+    color: #ff7373 !important;
+    /*color: lightblue !important;*/
+  }
+  a.nav-link:visited {
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .image {
+    width: 50%;
+  }
+}

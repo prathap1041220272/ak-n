@@ -1,0 +1,25 @@
+.decoration {
+	text-decoration: none;
+}
+
+.hr-tag {
+	background-color: lightgreen;
+}
+@media screen and (min-width: 750px) {
+	.social-border {
+		border-left: 1px solid lightgrey;
+		margin-left: 10px;
+	}
+}
+.style-h3 {
+	font-family: verdana;
+}
+div a>i.fa-2x:hover,a.decoration:hover {
+	color: grey !important;
+}
+.box {
+    padding:15px 30px;
+    background-color: #c4c4c459;
+    border-radius:3px;
+    color: #494949;
+}

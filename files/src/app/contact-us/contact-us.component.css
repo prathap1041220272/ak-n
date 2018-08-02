@@ -1,0 +1,36 @@
+.mapouter{
+    text-align:right;
+    height:473px;
+    width:100%;
+    margin-top:20px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:473px;
+    width:100%;
+}
+.contact-color1 {
+	color: #494949
+}
+.contact-color{
+    color:#ff3c0081;
+}
+
+.fa-map-marker-alt{
+    margin-right:10px
+}
+.fa-phone{
+    margin-right: 5px
+}
+.fa-envelope{
+    margin-right: 5px
+}
+
+.justify-content-around{
+    padding: 20px
+}
+
+.text-space{
+    margin-bottom: 8px;
+}
